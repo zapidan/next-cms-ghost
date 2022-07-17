@@ -52,7 +52,7 @@ import { NavItem } from '@lib/ghost'
 export const customNavigation: NavItem[] = [{ label: 'Website', url: 'http://dzapatariesco.dev' }]
 
 // Incremental Static Regenerations (ISR)
-// Note: must be disbaled, when using `next export`
+// Note: must be disabled, when using `next export`
 export const isr: boolean = false
 export const revalidate: number = 10
 export const maxNumberOfPosts: number = 20
